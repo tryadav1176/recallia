@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recallia - AI-Powered Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <span>Recallia</span>
+            </div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#app" class="btn btn-primary">Try Now</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up">
+                <h1>Master Any Subject with AI-Powered Learning</h1>
+                <p>Experience the future of education with our intelligent spaced repetition system. Learn faster, remember longer, and achieve your goals with Recallia.</p>
+                <div class="hero-cta">
+                    <a href="#app" class="btn btn-primary">Start Learning Free</a>
+                    <a href="#demo" class="btn btn-outline">Watch Demo</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat" data-aos="fade-up" data-aos-delay="100">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Retention Rate</div>
+                    </div>
+                    <div class="stat" data-aos="fade-up" data-aos-delay="200">
+                        <div class="stat-number">10x</div>
+                        <div class="stat-label">Faster Learning</div>
+                    </div>
+                    <div class="stat" data-aos="fade-up" data-aos-delay="300">
+                        <div class="stat-number">50K+</div>
+                        <div class="stat-label">Active Users</div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="hero-image">
+                <img src="./assets/hero-image.svg" alt="">
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Why Choose Recallia?</h2>
+                <p>Our platform combines cutting-edge technology with proven learning methods to help you achieve your goals.</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Smart Learning</h3>
+                    <p>Our AI adapts to your learning style and pace, optimizing your study sessions for maximum retention.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Progress Tracking</h3>
+                    <p>Monitor your learning journey with detailed analytics and insights to stay motivated.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Community Learning</h3>
+                    <p>Join study groups, share decks, and learn from others in our vibrant community.</p>
+                </div>
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile First</h3>
+                    <p>Learn anywhere, anytime with our mobile-optimized platform and offline support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>How It Works</h2>
+                <p>Experience the power of AI-driven learning in three simple steps.</p>
+            </div>
+            <div class="steps">
+                <div class="step" data-aos="fade-up">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3>Create Your Deck</h3>
+                        <p>Start by creating your own flashcard deck or choose from our extensive library of pre-made decks.</p>
+                    </div>
+                </div>
+                <div class="step" data-aos="fade-up" data-aos-delay="100">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3>Study Smart</h3>
+                        <p>Our AI analyzes your performance and adapts the learning schedule to optimize retention.</p>
+                    </div>
+                </div>
+                <div class="step" data-aos="fade-up" data-aos-delay="200">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3>Track Progress</h3>
+                        <p>Monitor your learning journey with detailed analytics and celebrate your achievements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Flashcard App Section -->
+    <section id="app" class="flashcard-app">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Try It Now</h2>
+                <p>Experience the power of AI-driven learning with our interactive demo.</p>
+            </div>
+            <div class="app-container" data-aos="fade-up">
+                <div class="app-sidebar">
+                    <h3>Your Decks</h3>
+                    <button class="btn-add-deck">
+                        <i class="fas fa-plus"></i>
+                        New Deck
+                    </button>
+                    <div class="deck-list">
+                        <div class="deck-item active" data-deck="general-knowledge">
+                            <i class="fas fa-book"></i>
+                            <span>General Knowledge</span>
+                            <span class="card-count">24 cards</span>
+                        </div>
+                        <div class="deck-item" data-deck="math-basics">
+                            <i class="fas fa-calculator"></i>
+                            <span>Math Basics</span>
+                            <span class="card-count">18 cards</span>
+                        </div>
+                        <div class="deck-item" data-deck="vocabulary">
+                            <i class="fas fa-language"></i>
+                            <span>Vocabulary</span>
+                            <span class="card-count">32 cards</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="app-main">
+                    <div class="app-header">
+                        <h3>Current Deck: <span id="current-deck">General Knowledge</span></h3>
+                        <div class="app-controls">
+                            <button class="btn-control active">
+                                <i class="fas fa-play"></i>
+                                Study
+                            </button>
+                            <button class="btn-control">
+                                <i class="fas fa-plus"></i>
+                                Add Card
+                            </button>
+                        </div>
+                    </div>
+                    <div class="flashcard">
+                        <div class="flashcard-inner">
+                            <div class="flashcard-front">
+                                <div class="card-content">
+                                    <p>What is the capital of France?</p>
+                                </div>
+                            </div>
+                            <div class="flashcard-back">
+                                <div class="card-content">
+                                    <p>Paris</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-controls">
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 45%"></div>
+                        </div>
+                        <div class="progress-text">
+                            <span>Card 11 of 24</span>
+                            <span>45% Complete</span>
+                        </div>
+                        <div class="difficulty-buttons">
+                            <button class="btn-difficulty again">
+                                <i class="fas fa-redo"></i>
+                                Again
+                            </button>
+                            <button class="btn-difficulty hard">
+                                <i class="fas fa-clock"></i>
+                                Hard
+                            </button>
+                            <button class="btn-difficulty good">
+                                <i class="fas fa-check"></i>
+                                Good
+                            </button>
+                            <button class="btn-difficulty easy">
+                                <i class="fas fa-star"></i>
+                                Easy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Choose Your Plan</h2>
+                <p>Select the perfect plan for your learning journey.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card" data-aos="fade-up">
+                    <div class="pricing-header">
+                        <h3>Free</h3>
+                        <div class="price">
+                            <span class="amount">$0</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 5 Decks</li>
+                        <li><i class="fas fa-check"></i> Basic Analytics</li>
+                        <li><i class="fas fa-check"></i> Community Access</li>
+                        <li><i class="fas fa-check"></i> Mobile App</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Get Started</a>
+                </div>
+                <div class="pricing-card featured" data-aos="fade-up" data-aos-delay="100">
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="amount">$9.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Unlimited Decks</li>
+                        <li><i class="fas fa-check"></i> Advanced Analytics</li>
+                        <li><i class="fas fa-check"></i> AI Learning Assistant</li>
+                        <li><i class="fas fa-check"></i> Priority Support</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Get Pro</a>
+                </div>
+                <div class="pricing-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pricing-header">
+                        <h3>Team</h3>
+                        <div class="price">
+                            <span class="amount">$29.99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Everything in Pro</li>
+                        <li><i class="fas fa-check"></i> Team Collaboration</li>
+                        <li><i class="fas fa-check"></i> Custom Branding</li>
+                        <li><i class="fas fa-check"></i> API Access</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>What Our Users Say</h2>
+                <p>Join thousands of satisfied learners who have transformed their study habits.</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up">
+                    <div class="testimonial-header">
+                        <img src="assets/avatar-1.jpg" alt="User Avatar" class="testimonial-avatar">
+                        <div class="testimonial-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Medical Student</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-content">"Recallia has revolutionized how I study for my medical exams. The spaced repetition system is incredibly effective!"</p>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-header">
+                        <img src="assets/avatar-2.jpg" alt="User Avatar" class="testimonial-avatar">
+                        <div class="testimonial-info">
+                            <h4>Michael Chen</h4>
+                            <p>Language Learner</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-content">"I've tried many language learning apps, but Recallia's AI-powered system is by far the most effective."</p>
+                </div>
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-header">
+                        <img src="assets/avatar-3.jpg" alt="User Avatar" class="testimonial-avatar">
+                        <div class="testimonial-info">
+                            <h4>Emma Davis</h4>
+                            <p>Professional Developer</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-content">"The progress tracking and analytics features help me stay motivated and focused on my learning goals."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="fade-up">
+                <h2>Start Your Learning Journey Today</h2>
+                <p>Join thousands of learners who have transformed their study habits with Recallia.</p>
+                <div class="cta-buttons">
+                    <a href="#app" class="btn btn-primary">Get Started Free</a>
+                    <a href="#pricing" class="btn btn-outline">View Plans</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <div class="footer-logo">
+                        <i class="fas fa-brain"></i>
+                        <span>Recallia</span>
+                    </div>
+                    <p>Transform your learning experience with AI-powered spaced repetition.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#app">Demo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Recallia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
